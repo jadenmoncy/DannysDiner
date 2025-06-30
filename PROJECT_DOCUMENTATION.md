@@ -8,7 +8,7 @@ Dannys Diner/
 ├── sql_queries.sql                     # Complete SQL script with all queries
 ├── analysis_results.md                 # Detailed analysis with expected results
 ├── PROJECT_DOCUMENTATION.md            # This comprehensive documentation
-└── Dannys_Diner_SQL_Case_Study_Report.pdf  # Generated PDF report
+└── Dannys_Diner_SQL_Case_Study_Report.pdf  # PDF report
 ```
 
 ## Quick Start Guide
@@ -184,122 +184,8 @@ END
    - Monitor sushi stock (premium item)
    - Balance curry inventory (steady demand)
 
-## Project Deliverables
-
-### Core Files
-
-1. **`sql_queries.sql`** - Complete SQL implementation
-   - Table creation scripts
-   - Sample data insertion
-   - All 10 case study queries
-   - Bonus questions solutions
-   - Ready to run in any SQL database
-
-2. **`analysis_results.md`** - Detailed analysis
-   - Expected query results
-   - Business insights and interpretations
-   - Performance metrics
-   - Strategic recommendations
-
-3. **`Dannys_Diner_SQL_Case_Study_Report.pdf`** - Professional report
-   - Complete project overview
-   - Technical implementation details
-   - Business insights and recommendations
-   - Professional formatting
-
-4. **`README.md`** - Project overview
-   - Quick start guide
-   - Key findings summary
-   - Usage instructions
-
-5. **`PROJECT_DOCUMENTATION.md`** - This comprehensive guide
-   - Detailed technical documentation
-   - Implementation guidelines
-   - Troubleshooting guide
-
-## Usage Instructions
-
-### For SQL Execution
-
-1. **Choose your database system** (SQLite, MySQL, PostgreSQL)
-2. **Create a new database** (if needed)
-3. **Run the SQL script** using the appropriate command
-4. **Review results** in your database client or terminal
-
-### For Analysis Review
-
-1. **Open the PDF report** for comprehensive analysis
-2. **Check analysis_results.md** for detailed insights
-3. **Review README.md** for quick overview
-
-## Troubleshooting
-
-### Common Issues
-
-1. **SQL Query Errors**
-   - Database-specific syntax differences
-   - Date function variations between systems
-   - Missing table creation scripts
-
-2. **Data Import Issues**
-   - Check data format consistency
-   - Verify foreign key relationships
-   - Ensure proper data types
-
-### Database-Specific Notes
-
-#### MySQL
-```sql
--- Use DATE_ADD instead of DATE function
-WHERE s.order_date BETWEEN mem.join_date AND DATE_ADD(mem.join_date, INTERVAL 6 DAY)
-```
-
-#### PostgreSQL
-```sql
--- Use + INTERVAL instead of DATE function
-WHERE s.order_date BETWEEN mem.join_date AND mem.join_date + INTERVAL '6 days'
-```
-
-#### SQLite
-```sql
--- Use DATE function as shown in original queries
-WHERE s.order_date BETWEEN mem.join_date AND DATE(mem.join_date, '+6 days')
-```
-
-## Learning Resources
-
-### SQL Concepts
-- [Window Functions](https://www.postgresql.org/docs/current/tutorial-window.html)
-- [CTEs (Common Table Expressions)](https://www.postgresql.org/docs/current/queries-with.html)
-- [JOINs](https://www.w3schools.com/sql/sql_join.asp)
-
-### Business Analytics
-- [Customer Segmentation](https://www.investopedia.com/terms/c/customer-segmentation.asp)
-- [Loyalty Programs](https://www.investopedia.com/terms/l/loyalty-program.asp)
-- [Data-Driven Decision Making](https://www.mckinsey.com/business-functions/mckinsey-analytics/our-insights/the-business-value-of-data-science)
-
-## Contributing
-
-To contribute to this project:
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
-
-## License
-
-This project is part of the 8-Week SQL Challenge by Danny Ma and is intended for educational purposes.
 
 ## Author
 
 **Jaden Joseph Moncy**
-- B.Tech | IIT Guwahati
-- LinkedIn: [Your LinkedIn]
-- Portfolio: [Your Portfolio]
-- Email: [Your Email]
-
 ---
-
-*This documentation provides a comprehensive guide to the Danny's Diner SQL Case Study project. The project focuses on SQL implementation and business analysis, with all necessary files included for immediate use.* 
