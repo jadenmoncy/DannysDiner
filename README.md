@@ -196,9 +196,8 @@ GROUP BY s.customer_id;
 
 - **`sql_queries.sql`** - Complete SQL script with all queries and table creation
 - **`analysis_results.md`** - Detailed analysis with expected results and insights
-- **`requirements.txt`** - Python dependencies for PDF generation
 - **`PROJECT_DOCUMENTATION.md`** - Comprehensive project documentation
-- **`Dannys_Diner_SQL_Case_Study_Report.pdf`** - Generated professional PDF report
+- **`Dannys_Diner_SQL_Case_Study_Report.pdf`** - PDF report
 
 ### Quick Start
 
@@ -272,22 +271,11 @@ GROUP BY s.customer_id;
 
 A fully documented PDF of this case study is available: **`Dannys_Diner_SQL_Case_Study_Report.pdf`**
 
-The PDF includes:
-- Complete project overview
-- Detailed dataset description
-- All SQL queries with explanations
-- Analysis results and insights
-- Business recommendations
-- Technical implementation details
-- Professional formatting and styling
-
 ---
 
 ## Author
 
 **Jaden Joseph Moncy**
-- B.Tech | IIT Guwahati
-- LinkedIn | Portfolio | Email
 
 ---
 
@@ -301,5 +289,3 @@ This project reinforced key SQL concepts like:
 - Business insights from raw data
 - Professional report generation
 - Data storytelling techniques
-
-The complete project demonstrates advanced SQL techniques while providing actionable business insights for restaurant management and customer analytics.
